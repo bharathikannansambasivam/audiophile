@@ -10,7 +10,6 @@
     height: 70vh;
     width: 100%;
     z-index: 1;
-
     background-repeat: no-repeat;
 }
 
@@ -19,8 +18,6 @@
     width: 100vw;
     z-index: -1;
     position: absolute;
-
-
 }
 
 .header nav {
@@ -32,26 +29,30 @@
     text-align: center;
     position: absolute;
     margin: 15px;
-    color: white;
+    color: white; 
     margin-left: 2rem;
     font-size: 2vh;
 }
-.header nav h1 span{
+
+.header nav h1 span {
     font-size: 5vh;
     color: rgb(255, 9, 9);
 }
+
 .header nav ul {
     transform: skew(-25deg);
-    display: flex;
-    margin: 0 20px;
+    display: flex;    
+    margin: 0 2%;
+
     justify-content: flex-end;
 }
 
 .header nav ul li {
-    width: 15%;
+    width: 15vh;
     background: linear-gradient(red, black);
     padding: 10px;
     font-size: 3vh;
+    height: 5vh;
     border: 2px solid gainsboro;
     margin-top: 3px;
     list-style: none;
@@ -73,7 +74,6 @@
 a {
     color: white;
     text-decoration: none;
-
 }
 
 .product-info {
@@ -82,33 +82,32 @@ a {
     justify-content: center;
     height: 100%;
     justify-content: space-around;
-    gap: 35%;
+    gap: 15vw;
+
 }
 
 .product-info h1 {
     color: aliceblue;
     filter: drop-shadow(rgb(255, 0, 0) 10px 10px 10px);
-
 }
 
 .product-info h1 span {
     font-size: 10vh;
     color: rgb(183, 0, 0);
     filter: drop-shadow(rgb(255, 255, 255) 10px 10px 10px);
-
 }
 
 .product-info button {
     border: .3vh solid gainsboro;
     border-radius: 20px;
-    color: white; 
-      padding: 2%;
-height: 5vh;
-font-size: 1.2vh;
-align-items: center;
-display: flex;
-justify-content: center;
-    background:radial-gradient(rgb(255, 0, 0), black);
+    color: white;
+    padding: 2%;
+    height: 5vh;
+    font-size: 1.2vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(rgb(255, 0, 0), black);
 }
 
 .product-info button:hover {
@@ -125,23 +124,18 @@ justify-content: center;
     top: 50%;
 }
 
-
 .product-about p {
     padding-top: .5em;
     font-size: 2.5vh;
-
 }
 
 /* Figure */
-
-
 .figure {
     margin-top: 100px;
     display: flex;
     gap: 10%;
     justify-content: center;
     align-items: center;
-
 }
 
 .item img {
@@ -158,8 +152,8 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-box-shadow: rgb(63, 55, 55) 10px 10px 50px;
-margin: 10px;
+    box-shadow: rgb(63, 55, 55) 10px 10px 50px;
+    margin: 10px;
     background: rgb(219, 211, 211);
 }
 
@@ -181,24 +175,24 @@ margin: 10px;
     align-items: center;
     justify-content: center;
     background: radial-gradient(red, black);
-
 }
-.item:hover{
+
+.item:hover {
     opacity: .9;
     background: rgb(255, 255, 255);
 }
 
-
-.item button:hover{
+.item button:hover {
     background: linear-gradient(black, red,
-    black)
+            black)
 }
-section{
-    display: flex;    position: relative;
 
+section {
+    display: flex;
+    position: relative;
     flex-direction: column;
-
 }
+
 .product {
     padding: 5rem 5%;
     margin: 10%;
@@ -209,156 +203,163 @@ section{
     justify-content: center;
     height: 40vh;
     position: relative;
-background: rgb(249, 150, 79);  
-}
-.product img{
-  height: 25vh;     
-  display: flex;
-  align-items: center; 
-  filter: drop-shadow(10px 10px 2px rgb(50, 50, 50));
-  justify-content: center;
-}
-.product:hover{
-background-color: orange;
+    background: rgb(249, 150, 79);
 }
 
-
-.buds:hover{
-opacity: .9;
-background: rgb(0, 166, 255);
+.product img {
+    height: 25vh;
+    display: flex;
+    width: auto;
+    align-items: center;
+    filter: drop-shadow(10px 10px 2px rgb(50, 50, 50));
+    justify-content: center;
 }
 
-    .pro-about{
+.product:hover {
+    background-color: orange;
+}
+
+.buds:hover {
+    opacity: .9;
+    background: rgb(0, 166, 255);
+}
+
+.pro-about {
     height: 100%;
     font-size: 1.8vh;
     display: flex;
     flex-direction: column;
-      justify-content: center;
-align-items: center;
-width: 90%;
-}
-.pro-about p{
-    font-weight:bold ;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
-.pro-about  button{
+.pro-about p {
+    font-weight: bold;
+}
+
+.pro-about button {
     border: .5vh solid gainsboro;
     border-radius: 20px;
     color: white;
     padding: 1rem;
     width: auto;
     height: 5vh;
-display: flex;  
-align-items: center;  background: radial-gradient(red, black);
+    display: flex;
+    align-items: center;
+    background: radial-gradient(red, black);
 }
-.buds{
+
+.buds {
     flex-direction: row-reverse;
     background: rgb(81, 174, 224);
-
 }
 
-
-.buds button{
-position: relative;
-right: 5%;
-
+.buds button {
+    position: relative;
+    right: 5%;
 }
-.product button:hover{
+
+.product button:hover {
     background: linear-gradient(black, red,
-    black)
+            black)
 }
+
 .location {
     display: flex;
     flex-direction: row-reverse;
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 10vh;
     gap: 10px;
     justify-content: space-around;
 }
-.location .about-store{
-    width: 50vw;
 
+.location .about-store {
+    width: 50vw;
 }
-.about-store h2 span{
+
+.about-store h2 span {
     font-size: xx-large;
     color: darkviolet;
 }
-.about-store p span{
+
+.about-store p span {
     color: rgb(179, 0, 255);
-
 }
-.location .about-store h2,p{
-padding: 20px;
-font-weight: bold;
 
+.location .about-store h2,
+p {
+    padding: 2vw;
+    font-weight: bold;
 }
-.location img{
+
+.location img {
     width: 50vw;
-    
     border-radius: 20px;
 }
 
-
-.footer{
+.footer {
     background: gray;
     padding: 30px;
     display: flex;
     border-radius: 20px;
-
 }
-
 
 .about h3 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    margin: 0 20px ;
-color: rgb(255, 255, 255);
+    font-size: 5vh;
+    margin: 0 20px;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
-  }
-  .about p {
-    
+}
+
+.about p {
     padding-bottom: 1.5em;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
-  }
- .about{
-    width: 50%;
-}
-.navigation{
-       width: 50%;
-       display: flex;
-       flex-direction: column;
-align-items: center;
-gap: 30%;
 }
 
-.navigation nav{
-width: 100%;
+.about {
+    width: 50%;
 }
-.navigation nav ul{
-display: flex;
-font-size: 1.5rem;
-justify-content: space-around;
+
+.navigation {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30%;
 }
+
+.navigation nav {
+    width: 100%;
+}
+
+.navigation nav ul {
+    display: flex;
+    font-size: 2vh;
+
+    justify-content: space-around;
+}
+
 .navigation nav ul li {
     list-style: none;
     font-weight: bolder;
-   
 }
-.footer .contact-us{
+
+.footer .contact-us {
     width: 100%;
     display: flex;
     gap: 3%;
-justify-content: center;
-
+    justify-content: center;
 }
-.footer .contact-us img{
-height: 30px;
 
-width: auto;
+.footer .contact-us img {
+    height: 3vh;
+    width: auto;
 }
 
 .login-btn button {
@@ -367,109 +368,136 @@ width: auto;
     padding: 1rem;
     color: aliceblue;
     width: 150%;
-
     text-decoration: none;
     background: radial-gradient(red, black);
 }
 
+@media screen and (max-width:600px) {
+    .header {
+        width: 100vw;
+        height: 100vh;
+    }
 
-@media screen and (max-width:600px){
-.header{
-    width: 100vw;
-    height: 100vh;
-}
-.header img{
-    height: 100vh;
-    width: 100vw;
+    .header img {
+        height: 100vh;
+        width: 100vw;
+    
+    }
+    .header nav h1{
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30vh;
+   }
+    .header nav ul {
+        height: 1vh;
+        width: auto;
+    }
 
-}
-.header nav ul{
-    height: 3vh;
-    width: auto;
-}
-.header nav ul li{
-    height: 5vh;
-    font-size: 5px;
-    width: auto;
-}
-.section {
-    display: flex;
-    flex-direction: column;
-}
-.pro-about button{
-font-size: 2vh;
-height: 5px;
-width: auto;
-padding: 10px;
-}
-.product-about {
+    .header nav ul li {
+        height: 3vh;
+        font-size: 5px;
+        width: auto;
+    }
 
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    justify-content: flex-end;
-}
-.product-info button{
-    padding: 10px;
-    margin-right: 10px;
-}
-.product-about h1 {
-    font-size: 1rem;
-}
+   
+    .product {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;  
+gap: 5vh;
+ }
 
+    .pro-about button {
+        font-size: 2vh;
+        height: 5px;
+        width: auto;
+        margin-top: 10%;
+        padding: 10px;
+    }
 
-    .figure{
+    .product-about {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        justify-content: flex-end;
+    }
+    .product-info{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        justify-content: center;
+    }
+    .product-info button {
+        padding: 10px;
+    }
+
+    .product-about h1 {
+        font-size: 1rem;
+    }
+
+    .figure {
         display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
     }
-    .item{
-        width: 50vw;
-        height: 70vh;
+
+    .item {
+        width: 60vw;
+        height: 30vh;
     }
+
     .item img {
-        height:45vh;
+        height: 50%;
         object-fit: cover;
-        width: 100%;
-        display: flex;
+        display: flex;       
+         width: 100%;
+
         flex-direction: column;
         border-radius: 5px 5px 0 0;
     }
 
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 
-.location{
-    display: flex;
-    flex-direction: column;
-}
+    .about {
+        width: 90vw;
+    }
+    .location img{
+        width: 90vw;
+    }
+    .location .about-store {
+        width: 80vw;
+    }
+    .navigation {
+        background: (186, 146, 146);
+        display: flex;
+        width: 90vw;
+    }
 
-.footer{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
+    .contact-us {
+        margin: 15px;
+    }
 
-.about {
-    width: 90vw;
-}
-.navigation{
-    background: (186, 146, 146);
-    display: flex;
-    width: 90vw;
-}    
-.contact-us{
-    margin: 15px;
-}
-.login-btn button{
-    height: 10px;
-    font-size: 10px;
-    padding: 15px;   
-    border: 1px solid gainsboro;
-display: flex;
-align-items: center;
-justify-content: center;
-    
-}   
-
+    .login-btn button {
+        height: 10px;
+        font-size: 10px;
+        padding: 15px;
+        border: 1px solid gainsboro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
