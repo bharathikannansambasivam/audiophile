@@ -131,7 +131,7 @@ a {
 .figure {
     margin-top: 100px;
     display: flex;
-    gap: 10%;
+    gap: 10vh;
     justify-content: center;
     align-items: center;
 }
@@ -152,6 +152,8 @@ a {
     flex-direction: column;
     box-shadow: rgb(63, 55, 55) 10px 10px 50px;
     margin: 10px;
+    height: 30vh;
+    width: 20vw;
     background: rgb(219, 211, 211);
 }
 
@@ -448,11 +450,10 @@ p {
 
     .item {
         width: 60vw;
-        height: 30vh;
+        height: 35vh;
     }
 
     .item img {
-        height: 30vh;
         object-fit: cover;
         display: flex;
         width: 100%;
