@@ -464,7 +464,7 @@ p {
         width: 100%;        gap: 10vh;
         flex-direction: column;
         border-radius: 5px 5px 0 0;
-        height: 32vh;
+        height: 33vh;
     }
     .item button{
         border: .3vh solid rgb(255, 255, 255);
