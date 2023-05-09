@@ -458,7 +458,7 @@ p {
         height: 50vh;
     }
 .item-about{
-    height: 20vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
 }
@@ -468,7 +468,7 @@ p {
         width: 100%;        gap: 10vh;
         flex-direction: column;
         border-radius: 5px 5px 0 0;
-        height: 33vh;
+        height: 35vh;
     }
     .item-about button{
         border: .3vh solid rgb(255, 255, 255);
